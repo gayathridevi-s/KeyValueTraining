@@ -20,7 +20,7 @@ body, html {
   
   .second-div {
     flex: 5;
-    background-color: grey;
+    background-color: #fafafa;
   }
   
   .image-section > img {
@@ -31,7 +31,7 @@ body, html {
   .employee {
     height: 70px; 
     width: 100%; 
-    background-color: rgb(134, 159, 230);
+    background-color: #03aeee;
     border-radius: 50px 0 0 50px;
     display: flex;
     justify-content: center;
@@ -48,20 +48,34 @@ body, html {
     height: 80px;
     background-color: white;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    padding-left:30px;
     align-items: center;
     font-weight: bold;
   }
+
+  .icon{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #fafafa;
+    border-color: #fafafa;
+    border-width: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: -130px;
+  }
   
   .right-bottom {
-    background-color: rgb(116, 136, 129);
+    background-color: #fafafa;
     height: 1000px;
   }
   
   .form-box {display: flex;
     flex-direction: column;
 
-    background-color: azure;
+    background-color:white;
     height: 300px;
     margin-top: 20px;
   }
