@@ -1,0 +1,102 @@
+/* pagestyle.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .main-div {
+    display: flex;
+    flex-direction: row;
+    height: 100%; 
+    width: 100%;
+  }
+  
+  .first-div {
+    flex: 1;
+    background-color: white;
+  }
+  
+  .second-div {
+    flex: 5;
+    background-color: grey;
+  }
+  
+  .image-section > img {
+    width: 250px;
+    height: 80px;
+  }
+  
+  .employee {
+    height: 70px; 
+    width: 100%; 
+    background-color: rgb(134, 159, 230);
+    border-radius: 50px 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-top {
+    background-color: white;
+    height: 80px;
+  }
+  
+  .create-employee-div {
+    margin-top: 18px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .right-bottom {
+    background-color: rgb(116, 136, 129);
+    height: 1000px;
+  }
+  
+  .form-box {
+    background-color: azure;
+    height: 300px;
+    margin-top: 20px;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .input-group {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: auto;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
